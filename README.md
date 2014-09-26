@@ -12,11 +12,12 @@ https://bugs.kde.org/show_bug.cgi?id=297445
 
 
 If u want to treat minimized windows like in the ms windows os, and have a 64-bit kubuntu 14, u can download the kwin compiled version and replace your local:
-`wget "https://github.com/katakumpo/kde-workspace/blob/KDE/4.11/build/kwin?raw=true" -O /tmp/kwin
-cd /usr/bin
-sudo mv kwin kwin_original
-mv /tmp/kwin .
-chmod a+x kwin 
-`
+
+`wget "https://github.com/katakumpo/kde-workspace/blob/KDE/4.11/build/kwin?raw=true" -O /tmp/kwin`
+`cd /usr/bin`
+`sudo mv kwin kwin_original`
+`mv /tmp/kwin .`
+`chmod a+x kwin`
+
 
 else you need to compile it yourself https://community.kde.org/KWin/Building
